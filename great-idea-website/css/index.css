@@ -64,3 +64,27 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+html {
+	box-sizing: border-box;
+	display: block;
+}
+
+header nav {
+	display: inline-block;
+	margin: auto 200px;
+	padding: 15px;
+}
+
+.topContent {
+	border-bottom: 1px solid black;
+	margin: 20px 0;
+  	padding: 20px 0;
+}
+
+.mainContent {
+	display: inline-block;
+	border-bottom: 1px solid black;
+	margin: 20px 0;
+}
+	
