@@ -70,10 +70,24 @@ html {
 	display: block;
 }
 
-header nav {
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.header nav {
 	display: inline-block;
-	margin: auto 200px;
-	padding: 15px;
+  	width: 691px;
+  	vertical-align: top;
+	margin-top: 35px;
+}
+
+.header nav a {
+	display: inline-block;
+  	margin-right: 65px;
+  	font-size: 14px;
+  	color: gray;
+  	text-decoration: none;
 }
 
 .topContent {
@@ -87,4 +101,5 @@ header nav {
 	border-bottom: 1px solid black;
 	margin: 20px 0;
 }
+
 	
